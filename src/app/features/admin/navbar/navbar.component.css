@@ -1,0 +1,19 @@
+.navmenu{
+  justify-content: space-around;
+}
+.li1 {
+  margin: auto;
+  margin-right: 300px;
+}
+.li2{
+  margin-right: 50px;
+}
+
+.li2 a,button{
+  margin: auto;
+  margin-left: 20px;
+  width: 100px;
+  text-align: center;
+  height: 40px;
+  color: white;
+}

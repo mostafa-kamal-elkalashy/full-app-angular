@@ -1,0 +1,40 @@
+<header id="header" class="header d-flex align-items-center sticky-top">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+    <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">ELkalashy</h1>
+    </a>
+
+    <nav id="navmenu" class="navmenu d-flex ">
+
+        <ul class="li1 dis">
+        @if(Auth==true){
+        <li><a routerLink="/admin/home" routerLinkActive="active">Home<br></a></li>
+        <li><a routerLink="/admin/lc" routerLinkActive="active">Courses</a></li>
+        <li><a routerLink="/admin/lt" routerLinkActive="active">Trainers</a></li>
+      }@else {}
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list" id="list"></i>
+
+      <ul class="li2">
+        <li>
+          <a type="button"  routerLink="/admin/register" class="btn btn-success">sign up</a>
+        </li>
+        <li>
+          <a type="button"  routerLink="/admin/login" class="btn btn-success">sign in</a>
+        </li>
+        @if(Auth==true){
+        <li class="dis">
+          <button type="button" (click)="logout()" class="btn btn-success">log out</button>
+        </li>
+      }@else {}
+      </ul>
+
+    </nav>
+
+
+
+  </div>
+</header>

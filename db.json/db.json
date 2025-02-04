@@ -1,0 +1,65 @@
+{
+  "courses": [
+    {
+      "title": "Web Development ",
+      "debertment": "Website Design",
+      "descreption": "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+      "img": "https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "price": " $158",
+      "instractor": "Antonio",
+      "id": "2a02"
+    },
+    {
+      "title": "CopyWriting",
+      "debertment": "contant",
+      "descreption": "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+      "img": "https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "price": "$4576",
+      "instractor": "mostafa kamal",
+      "id": "0a39"
+    }
+  ],
+  "traning": [
+    {
+      "debertment": "Business",
+      "descreption": "Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel",
+      "img": "https://images.pexels.com/photos/4443160/pexels-photo-4443160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "name": "Josepha Palas",
+      "id": "2"
+    },
+    {
+      "debertment": "Web Development",
+      "descreption": "Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit",
+      "img": "https://images.pexels.com/photos/4443160/pexels-photo-4443160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "name": "Brian Doe",
+      "id": "8493"
+    },
+    {
+      "debertment": "sdasdsfsd",
+      "descreption": "asddsfsdds",
+      "img": "https://images.pexels.com/photos/4443160/pexels-photo-4443160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "name": "dsfsdfsdfsd",
+      "id": "75cf"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "mostafa kamal",
+      "email": "mostafakamoly@gmail.com",
+      "passward": "kamoly"
+    },
+    {
+      "id": "7f30",
+      "name": "mostafa ",
+      "email": "elkalashy@gmail.com",
+      "password": "kamoly4566"
+    },
+    {
+      "id": "c00b",
+      "name": "mostafa",
+      "email": "mostafa",
+      "password": "mostafa"
+    }
+  ]
+}

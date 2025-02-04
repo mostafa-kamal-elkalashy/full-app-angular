@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="col-md-6 card m-auto mb-5">
+    <form [formGroup]="trainerForm" >
+      <div class="card-body">
+        <h4>UpDate trainer</h4>
+        <div class="cc d-flex"><a routerLink="/admin/lt" routerLinkActive="active"> Back</a></div>
+          <div class="form-groub">
+            <label for="">debertment</label>
+            <input type="text" formControlName="debertment" class="form-control">
+            @if (trainerForm.get("debertment")?.touched && trainerForm.get("debertment")?.invalid) {
+              <span class="text-danger"> your debertment requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">descreption</label>
+            <input type="text" formControlName="descreption" class="form-control">
+            @if (trainerForm.get("descreption")?.touched && trainerForm.get("descreption")?.invalid) {
+              <span class="text-danger"> your description requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">img</label>
+            <input type="text" formControlName="img" class="form-control">
+            @if (trainerForm.get("img")?.touched && trainerForm.get("img")?.invalid) {
+              <span class="text-danger"> your img url requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">name</label>
+            <input type="text" formControlName="name" class="form-control">
+            @if (trainerForm.get("name")?.touched && trainerForm.get("name")?.invalid) {
+              <span class="text-danger"> your name  requerd</span>
+            }
+          </div>
+          <div class="form-groub mt-3">
+            <button class="form-control btn btn-success" (click)="submit()" [disabled]="trainerForm.invalid"> update</button>
+          </div>
+      </div>
+    </form>
+    </div>
+
+</div>
+

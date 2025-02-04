@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="col-md-6 card m-auto mb-5">
+    <form [formGroup]="registerForm" >
+      <div class="card-body">
+        <h4>Register New Account</h4>
+        <div class="cc d-flex"><a routerLink="/admin" routerLinkActive="active"> Back</a></div>
+          <div class="form-groub">
+            <label for="">Name</label>
+            <input type="text" formControlName="name" class="form-control">
+            @if (registerForm.get("name")?.touched && registerForm.get("name")?.invalid) {
+              <span class="text-danger"> your name requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">Email</label>
+            <input type="email" formControlName="email" class="form-control">
+            @if (registerForm.get("email")?.touched && registerForm.get("email")?.invalid) {
+              <span class="text-danger"> your email requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">Password</label>
+            <input type="password" formControlName="password" class="form-control">
+            @if (registerForm.get("password")?.touched && registerForm.get("password")?.invalid) {
+              <span class="text-danger"> your password requerd</span>
+            }
+          </div>
+
+          <div class="form-groub mt-3">
+            <button class="form-control btn btn-success" (click)="submit()" [disabled]="registerForm.invalid">Log up</button>
+          </div>
+      </div>
+    </form>
+    </div>
+
+</div>

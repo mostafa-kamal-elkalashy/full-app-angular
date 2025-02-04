@@ -1,0 +1,56 @@
+<div class="container">
+  <div class="col-md-6 card m-auto mb-5">
+    <form [formGroup]="courseForm">
+      <div class="card-body">
+        <h4>Create Courses</h4>
+        <div class="cc d-flex"><a routerLink="/admin/lc" routerLinkActive="active"> Back</a></div>
+          <div class="form-groub">
+            <label for="">title</label>
+            <input type="text" formControlName="title" class="form-control">
+            @if (courseForm.get("title")?.touched && courseForm.get("title")?.invalid) {
+              <span class="text-danger"> your name requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">debertment</label>
+            <input type="text" formControlName="debertment" class="form-control">
+            @if (courseForm.get("debertment")?.touched && courseForm.get("debertment")?.invalid) {
+              <span class="text-danger"> your debertment requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">descreption</label>
+            <input type="text" formControlName="descreption" class="form-control">
+            @if (courseForm.get("descreption")?.touched && courseForm.get("descreption")?.invalid) {
+              <span class="text-danger"> your description requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">img</label>
+            <input type="text" formControlName="img" class="form-control">
+            @if (courseForm.get("img")?.touched && courseForm.get("img")?.invalid) {
+              <span class="text-danger"> your img url requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">price</label>
+            <input type="text" formControlName="price" class="form-control">
+            @if (courseForm.get("price")?.touched && courseForm.get("price")?.invalid) {
+              <span class="text-danger"> your price requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">instractor</label>
+            <input type="text" formControlName="instractor" class="form-control">
+            @if (courseForm.get("instractor")?.touched && courseForm.get("instractor")?.invalid) {
+              <span class="text-danger"> your instractor requerd</span>
+            }
+          </div>
+          <div class="form-groub mt-3">
+            <button class="form-control btn btn-success" (click)="submit()" [disabled]="courseForm.invalid"> UpDate</button>
+          </div>
+      </div>
+    </form>
+    </div>
+
+</div>

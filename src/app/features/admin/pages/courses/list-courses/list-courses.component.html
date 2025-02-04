@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="col-md-8 card m-auto mb-5">
+    <div class="card-body">
+      <h4>list courses</h4>
+      <div class="cc d-flex"><a routerLink="/admin/cc" routerLinkActive="active"> create courses</a></div>
+      <table class="table text-center  m-auto ">
+        <tr>
+          <th>id</th>
+          <th>title</th>
+          <th>debertment</th>
+          <th>descreption </th>
+          <th>img</th>
+          <th>price</th>
+          <th>instractor</th>
+          <th colspan="2">Active</th>
+        </tr>
+        @for (item of allData; track item.id) {
+          <tr>
+            <th>{{item.id}}</th>
+            <th>{{item.title}}</th>
+            <th>{{item.debertment}}</th>
+            <th>{{item.descreption}}</th>
+            <th><img [src]="item.img" alt="" class="" style="width: 50px;"></th>
+            <th>{{item.price}}</th>
+            <th>{{item.instractor}}</th>
+            <th><button class="btn btn-danger" (click)="deletCourse(item.id)"> delet</button></th>
+            <th><a routerLink="/admin/uc/{{item.id}}" class="btn btn-info"> Edit</a></th>
+          </tr>
+        }
+
+      </table>
+    </div>
+  </div>
+</div>

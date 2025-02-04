@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+.spaner{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  z-index: 32231;
+  position: fixed;
+  top: 0;
+  right: 0;
+}

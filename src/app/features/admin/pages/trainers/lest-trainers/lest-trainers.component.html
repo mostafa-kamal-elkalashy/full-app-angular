@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="col-md-8 card m-auto mb-5">
+    <div class="card-body">
+      <h4>list trainer</h4>
+      <div class="cc d-flex"><a routerLink="/admin/ct" routerLinkActive="active"> create trainer</a></div>
+      <table class="table text-center  m-auto ">
+        <tr>
+          <th>id</th>
+          <th>debertment</th>
+          <th>descreption </th>
+          <th>img</th>
+          <th>name</th>
+          <th colspan="2">Active</th>
+        </tr>
+        @for (item of allData; track item.id) {
+          <tr>
+            <th>{{item.id}}</th>
+            <th>{{item.debertment}}</th>
+            <th>{{item.descreption}}</th>
+            <th><img [src]="item.img" alt="" class="" style="width: 50px;"></th>
+            <th>{{item.name}}</th>
+            <th><button class="btn btn-danger" (click)="deletTrainer(item.id)"> delete</button></th>
+            <th><a routerLink="/admin/ut/{{item.id}}" class="btn btn-info"> Edit</a></th>
+          </tr>
+        }
+
+      </table>
+    </div>
+  </div>
+</div>

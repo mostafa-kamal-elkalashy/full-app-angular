@@ -1,0 +1,24 @@
+.nav-pills{
+  margin:20px auto;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid  rgba(41, 136, 0, 0.733);
+  width: 30%;
+  padding: 10px;
+  border-radius: 20px;
+}
+.nav-pills a{
+ color: white;
+ background-color: rgba(41, 136, 0, 0.733);
+
+}
+
+.nav-pills a:hover{
+  color: white ;
+  background-color:rgb(56, 181, 3);
+}
+/* .nav-pills {
+  display: flex;
+
+  margin: auto;
+} */

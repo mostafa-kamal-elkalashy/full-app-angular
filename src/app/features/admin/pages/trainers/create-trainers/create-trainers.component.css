@@ -1,0 +1,21 @@
+table tr th{
+  border: 1px solid black;
+  padding: 6px;
+}
+.cc{
+  display: flex;
+  float: right;
+}
+
+.cc a {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+h4{
+  text-align: center;
+}
+.container{
+  margin-top: 100px;
+
+}
