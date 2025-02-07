@@ -5,18 +5,27 @@
       "debertment": "Website Design",
       "descreption": "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
       "img": "https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "price": " $158",
-      "instractor": "Antonio",
+      "price": " $564534",
+      "instractor": "Antonio  ",
       "id": "2a02"
     },
     {
       "title": "CopyWriting",
       "debertment": "contant",
       "descreption": "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
-      "img": "https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "img": "https://images.pexels.com/photos/8423014/pexels-photo-8423014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "price": "$4576",
       "instractor": "mostafa kamal",
       "id": "0a39"
+    },
+    {
+      "title": "web developer",
+      "debertment": "front end ",
+      "descreption": "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+      "img": "https://media.istockphoto.com/id/1491196684/photo/business-people-celebrating-success-in-an-office.jpg?s=2048x2048&w=is&k=20&c=sfwmy0dWz6gTBr9q6tTQ-uqnG9q8FzS4wAxVIrwR_Pw=",
+      "price": "$659 ",
+      "instractor": "mostafa kaml",
+      "id": "4c88"
     }
   ],
   "traning": [
@@ -30,16 +39,23 @@
     {
       "debertment": "Web Development",
       "descreption": "Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit",
-      "img": "https://images.pexels.com/photos/4443160/pexels-photo-4443160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "img": "https://media.istockphoto.com/id/1434212178/photo/middle-eastern-lady-using-laptop-working-online-sitting-in-office.jpg?s=2048x2048&w=is&k=20&c=U0nKYf9Ggh8S77U7DvPlFpRE0bKiSOD9gr9naxHEpfM=",
       "name": "Brian Doe",
       "id": "8493"
     },
     {
-      "debertment": "sdasdsfsd",
-      "descreption": "asddsfsdds",
-      "img": "https://images.pexels.com/photos/4443160/pexels-photo-4443160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "name": "dsfsdfsdfsd",
-      "id": "75cf"
+      "debertment": "trainer",
+      "descreption": "Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit",
+      "img": "https://media.istockphoto.com/id/513439341/photo/portrait-of-enthusiastic-business-people-in-circle.jpg?s=2048x2048&w=is&k=20&c=9hnolLHaRciS6aJtEGTP1rdFjD2ccFt8PwtdH0E8IK4=",
+      "name": "trainer",
+      "id": "c210"
+    },
+    {
+      "id": "1d9c",
+      "debertment": "Web Development",
+      "descreption": "Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel",
+      "img": "https://media.istockphoto.com/id/1491196684/photo/business-people-celebrating-success-in-an-office.jpg?s=2048x2048&w=is&k=20&c=sfwmy0dWz6gTBr9q6tTQ-uqnG9q8FzS4wAxVIrwR_Pw=",
+      "name": "mostafa"
     }
   ],
   "user": [
@@ -54,12 +70,73 @@
       "name": "mostafa ",
       "email": "elkalashy@gmail.com",
       "password": "kamoly4566"
+    }
+  ],
+  "events": [
+    {
+      "title": "web developer",
+      "date": "2025-01-26",
+      "decription": "fdxxhxdfdhdfhx",
+      "img": "https://images.pexels.com/photos/13471556/pexels-photo-13471556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "id": "1"
     },
     {
-      "id": "c00b",
-      "name": "mostafa",
-      "email": "mostafa",
-      "password": "mostafa"
+      "title": "web developer",
+      "date": "2025-03-30",
+      "decription": "lorem lorem lorem loremlorem lorem lorem loremloremloremvv  loremlorem  vlorem",
+      "img": "https://images.pexels.com/photos/13471556/pexels-photo-13471556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "id": "2"
+    },
+    {
+      "id": "1",
+      "img": "https://images.pexels.com/photos/13471556/pexels-photo-13471556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "title": "web developer",
+      "date": "2025-04-02",
+      "decription": "lorem lorem lorem loremlorem lorem lorem loremloremloremvv  loremlorem  vlorem"
+    },
+    {
+      "id": "2",
+      "img": "https://images.pexels.com/photos/13471556/pexels-photo-13471556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "title": "web developer",
+      "date": "2025-07-12",
+      "decription": "lorem lorem lorem loremlorem lorem lorem loremloremloremvv  loremlorem  vlorem"
+    },
+    {
+      "title": "event in nasir city",
+      "date": "2025-02-12",
+      "decription": " mostafa mostafav mostafa mostafa mostafa mostafa vmostafa mostafa mostafa mostafa mostafamostafa vmostafa mostafa mostafa mostafa mostafa ",
+      "img": "https://images.pexels.com/photos/13471556/pexels-photo-13471556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "id": "0e1f"
+    }
+  ],
+  "message": [
+    {
+      "name": "Brian Doe",
+      "email": "elkalashy@gmail.com",
+      "supject": "sucgscacgsc",
+      "message": "lorem",
+      "id": "f93d"
+    },
+    {
+      "id": "5a0d",
+      "name": "",
+      "email": "",
+      "supject": "",
+      "message": ""
+    },
+    {
+      "id": "1e15",
+      "name": "",
+      "email": "",
+      "supject": "",
+      "message": ""
+    },
+    {
+      "id": "8903",
+      "name": "مصطفي كمال عبدالحميد جاد  القلشي",
+      "email": "mostafaelkalashy6@gmail.com",
+      "supject": "SEtEWET",
+      "message": "wewerwrwer"
     }
   ]
 }

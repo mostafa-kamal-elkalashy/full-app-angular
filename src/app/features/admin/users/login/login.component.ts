@@ -1,4 +1,4 @@
-import { user } from './../../../../model/user';
+
 import { Component } from '@angular/core';
 import { FormsModule} from '@angular/forms';
 import { Router, RouterLink, RouterLinkActive } from '@angular/router';
@@ -21,7 +21,7 @@ constructor(private toaster:ToastrService ,private serv:UsersService, private ro
   submit(){
     this.serv.get().subscribe((data:any)=>{
       let user=data.find((userData:any)=>{
-        return ((userData.email == this.userEmail )||(userData.password == this.userPassword)) ;
+        return userData.email == this.userEmail && userData.password == this.userPassword;
       });
 
       if(user){
@@ -30,6 +30,7 @@ constructor(private toaster:ToastrService ,private serv:UsersService, private ro
         localStorage.setItem("admin",user);
       }else{
          this.toaster.error("wrong in passward or email");
+         console.log(this.userEmail,this.userPassword)
        }
     })
   }

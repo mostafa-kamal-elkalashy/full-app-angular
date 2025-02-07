@@ -23,17 +23,13 @@ constructor(private df:FormBuilder,private serv:UsersService,private toaster:Toa
       password:['',[Validators.required]]
     })
   }
-  get formcontrols(){
-    return this.registerForm.controls;
-  }
+  // get formcontrols(){
+  //   return this.registerForm.controls;
+  // }
 
   submit(){
    this.serv.create(this.registerForm.value).subscribe((data:any)=>{
-    this.toaster.success("success", "Register Account Successfully", {
-      timeOut: 2000,
-      closeButton: true,
-      positionClass: "toast-top-center",
-    });
+    this.toaster.success("Register Account Successfully");
     this.router.navigateByUrl("/admin/login");
    })
 

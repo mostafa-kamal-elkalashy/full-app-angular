@@ -3,7 +3,7 @@
 }
 .li1 {
   margin: auto;
-  margin-right: 300px;
+  margin-right: 200px;
 }
 .li2{
   margin-right: 50px;
@@ -16,4 +16,7 @@
   text-align: center;
   height: 40px;
   color: white;
+}
+.header{
+  background-color: #ddddddbb;
 }

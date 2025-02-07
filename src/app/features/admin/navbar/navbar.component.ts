@@ -19,14 +19,11 @@ export class NavbarComponent {
   constructor(private Router:Router){
     if(localStorage.getItem("admin")){
       this.Auth = true;
-      console.log(this.Auth);
-
     }else{
       localStorage.removeItem('admin');
       this.Auth = false;
-      console.log(this.Auth);
     }
   }
-   
+
 
 }

@@ -1,3 +1,4 @@
+import { EventsService } from './../../../service/events.service';
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
@@ -9,5 +10,11 @@ import { RouterLink } from '@angular/router';
   styleUrl: './events.component.css'
 })
 export class EventsComponent {
+  allData!:any[];
+  constructor( private EventsService:EventsService){
+    this.EventsService.get().subscribe((data:any)=>{
+      this.allData=data;
 
+    })
+  }
 }

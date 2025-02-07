@@ -12,6 +12,9 @@ import { UpdateTrainersComponent } from './pages/trainers/update-trainers/update
 import { RegistersComponent } from './users/registers/registers.component';
 import { register } from 'swiper/element';
 import { LoginComponent } from './users/login/login.component';
+import { ListEventComponent } from './pages/events/list-event/list-event.component';
+import { CreateEventComponent } from './pages/events/create-event/create-event.component';
+import { UptadeEventComponent } from './pages/events/uptade-event/uptade-event.component';
 
 const routes: Routes = [
 
@@ -24,6 +27,9 @@ const routes: Routes = [
     {path:"lt",component:LestTrainersComponent},
     {path:"ct",component:CreateTrainersComponent},
     {path:"ut/:id",component:UpdateTrainersComponent},
+    {path:"le",component:ListEventComponent},
+    {path:"ce",component:CreateEventComponent},
+    {path:"ue/:id",component:UptadeEventComponent},
     {path:"home", component:HomeComponent},
     {path:"register",component:RegistersComponent},
     {path:"login",component:LoginComponent},

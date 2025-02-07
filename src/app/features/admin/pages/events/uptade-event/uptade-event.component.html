@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="col-md-6 card m-auto mb-5">
+    <form [formGroup]=" eventForm">
+      <div class="card-body">
+        <h4>Update Event </h4>
+        <div class="cc d-flex"><a routerLink="/admin/le" routerLinkActive="active"> Back</a></div>
+          <div class="form-groub">
+            <label for="">title</label>
+            <input type="text" formControlName="title" class="form-control">
+            @if ( eventForm.get("title")?.touched &&  eventForm.get("title")?.invalid) {
+              <span class="text-danger"> your name requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">date</label>
+            <input type="text" formControlName="date" class="form-control">
+            @if ( eventForm.get("date")?.touched &&  eventForm.get("date")?.invalid) {
+              <span class="text-danger"> your date requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">decription</label>
+            <input type="text" formControlName="decription" class="form-control">
+            @if ( eventForm.get("decription")?.touched &&  eventForm.get("decription")?.invalid) {
+              <span class="text-danger"> your decription requerd</span>
+            }
+          </div>
+          <div class="form-groub">
+            <label for="">img</label>
+            <input type="text" formControlName="img" class="form-control">
+            @if ( eventForm.get("img")?.touched &&  eventForm.get("img")?.invalid) {
+              <span class="text-danger"> your img url requerd</span>
+            }
+          </div>
+          <div class="form-groub mt-3">
+            <button class="form-control btn btn-success" (click)="submit()" [disabled]=" eventForm.invalid"> UpDate</button>
+          </div>
+      </div>
+    </form>
+    </div>
+
+</div>
+
