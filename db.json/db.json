@@ -5,7 +5,7 @@
       "debertment": "Website Design",
       "descreption": "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
       "img": "https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "price": " $564534",
+      "price": " $54366",
       "instractor": "Antonio  ",
       "id": "2a02"
     },
@@ -14,7 +14,7 @@
       "debertment": "contant",
       "descreption": "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
       "img": "https://images.pexels.com/photos/8423014/pexels-photo-8423014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "price": "$4576",
+      "price": "$457 ",
       "instractor": "mostafa kamal",
       "id": "0a39"
     },
@@ -24,8 +24,17 @@
       "descreption": "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
       "img": "https://media.istockphoto.com/id/1491196684/photo/business-people-celebrating-success-in-an-office.jpg?s=2048x2048&w=is&k=20&c=sfwmy0dWz6gTBr9q6tTQ-uqnG9q8FzS4wAxVIrwR_Pw=",
       "price": "$659 ",
-      "instractor": "mostafa kaml",
+      "instractor": "mostafa kamal",
       "id": "4c88"
+    },
+    {
+      "id": "5a7a",
+      "title": "web developer",
+      "debertment": "front end developer",
+      "descreption": "f;lgdsar",
+      "img": "https://images.pexels.com/photos/7092350/pexels-photo-7092350.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "price": "$7867",
+      "instractor": "mostafa kamal"
     }
   ],
   "traning": [
@@ -49,13 +58,6 @@
       "img": "https://media.istockphoto.com/id/513439341/photo/portrait-of-enthusiastic-business-people-in-circle.jpg?s=2048x2048&w=is&k=20&c=9hnolLHaRciS6aJtEGTP1rdFjD2ccFt8PwtdH0E8IK4=",
       "name": "trainer",
       "id": "c210"
-    },
-    {
-      "id": "1d9c",
-      "debertment": "Web Development",
-      "descreption": "Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel",
-      "img": "https://media.istockphoto.com/id/1491196684/photo/business-people-celebrating-success-in-an-office.jpg?s=2048x2048&w=is&k=20&c=sfwmy0dWz6gTBr9q6tTQ-uqnG9q8FzS4wAxVIrwR_Pw=",
-      "name": "mostafa"
     }
   ],
   "user": [
@@ -70,43 +72,54 @@
       "name": "mostafa ",
       "email": "elkalashy@gmail.com",
       "password": "kamoly4566"
+    },
+    {
+      "id": "407e",
+      "name": "mostafa",
+      "email": "mostafa",
+      "password": "mostafa"
+    },
+    {
+      "id": "33ad",
+      "name": "mostafa",
+      "email": "mostafaelkalashy@gmail.com",
+      "password": "kamoly"
+    },
+    {
+      "id": "a014",
+      "name": "mostafa",
+      "email": "mostafakamal@gmail.com",
+      "password": "kamoly"
     }
   ],
   "events": [
     {
       "title": "web developer",
       "date": "2025-01-26",
-      "decription": "fdxxhxdfdhdfhx",
-      "img": "https://images.pexels.com/photos/13471556/pexels-photo-13471556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "decription": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem  lorem lorem lorem",
+      "img": "https://images.pexels.com/photos/301987/pexels-photo-301987.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "id": "1"
     },
     {
       "title": "web developer",
       "date": "2025-03-30",
-      "decription": "lorem lorem lorem loremlorem lorem lorem loremloremloremvv  loremlorem  vlorem",
-      "img": "https://images.pexels.com/photos/13471556/pexels-photo-13471556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "decription": " lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+      "img": "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "id": "2"
     },
     {
-      "id": "1",
-      "img": "https://images.pexels.com/photos/13471556/pexels-photo-13471556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "title": "web developer",
       "date": "2025-04-02",
-      "decription": "lorem lorem lorem loremlorem lorem lorem loremloremloremvv  loremlorem  vlorem"
+      "decription": " lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+      "img": "https://media.istockphoto.com/id/1300410138/photo/ceo-making-toast-at-office-social-gathering.jpg?s=612x612&w=0&k=20&c=jl3UCja-2d2TbVJnP3Ls09pzAhlPrA2fnBHQzxRi1iQ=",
+      "id": "3"
     },
     {
-      "id": "2",
-      "img": "https://images.pexels.com/photos/13471556/pexels-photo-13471556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "title": "web developer",
       "date": "2025-07-12",
-      "decription": "lorem lorem lorem loremlorem lorem lorem loremloremloremvv  loremlorem  vlorem"
-    },
-    {
-      "title": "event in nasir city",
-      "date": "2025-02-12",
-      "decription": " mostafa mostafav mostafa mostafa mostafa mostafa vmostafa mostafa mostafa mostafa mostafamostafa vmostafa mostafa mostafa mostafa mostafa ",
-      "img": "https://images.pexels.com/photos/13471556/pexels-photo-13471556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "id": "0e1f"
+      "decription": " lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+      "img": "https://media.istockphoto.com/id/2193011973/photo/business-people-in-convention-center-during-coffee-break.jpg?s=612x612&w=0&k=20&c=ox-09vTBxXHPpWDMCOTBrSQ3vVJziznImTKhbNgRZ-M=",
+      "id": "4"
     }
   ],
   "message": [
